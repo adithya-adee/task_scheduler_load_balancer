@@ -2,8 +2,8 @@
 #include <vector>
 #include <queue>
 #include <iomanip>
-#include "process.hpp"
-#include "display_table.hpp"
+#include "../header_files/process.hpp"
+#include "../header_files/display_table.hpp"
 
 using namespace std;
 

@@ -25,7 +25,7 @@ void loop(int start, int end)
 {
     {
         const std::lock_guard<std::mutex> lock(loop_guard);
-        pid_t fork(void);
+        pid_t pid = fork();
         std::cout << "thread #" << std::this_thread::get_id() << std::endl;
     }
 }
